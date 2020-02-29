@@ -1,0 +1,10 @@
+CREATE DATABASE BookStore;
+
+USE BookStore;
+
+CREATE TABLE BookInventory (
+Book_id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+Book_Name VARCHAR(30) NOT NULL,
+Quantity INT(6)
+)
+
